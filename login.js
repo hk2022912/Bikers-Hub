@@ -72,7 +72,7 @@ export default function Login({ navigation }) {
         <Text style={styles.text}>BikersHub</Text>
         <TextInput
           style={styles.input}
-          placeholder="Username"
+          placeholder="Email"
           placeholderTextColor="black"
           value={username}
           onChangeText={setUsername}
